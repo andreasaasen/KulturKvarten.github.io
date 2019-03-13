@@ -19,19 +19,19 @@ body, html{
 }
 
 .pimg1{
-    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io//PicOne.jpg');
+    background-image: url('https://andreasaasen.github.io/KulturKvarten/PicOne.jpg');
     background-repeat: no-repeat;
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io//PicThree.jpg');
+    background-image: url('https://andreasaasen.github.io/PicThree.jpg');
     background-repeat: no-repeat;
     min-height: 400px;
 }
 
 .pimg3{
-    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io//PicTwo.jpg');
+    background-image: url('https://andreasaasen/KulturKvarten.github.io/PicTwo.jpg');
     background-repeat: no-repeat;
     min-height: 400px;
 }
