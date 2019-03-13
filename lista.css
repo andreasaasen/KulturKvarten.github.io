@@ -19,17 +19,20 @@ body, html{
 }
 
 .pimg1{
-    background-image: url("/Hannah2.jpg");
+    background-image: url('/PicOne.jpg');
+    background-repeat: no-repeat;
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url("/Hannah.jpg");
+    background-image: url('/PicThree.jpg');
+    background-repeat: no-repeat;
     min-height: 400px;
 }
 
 .pimg3{
-    background-image: url("/Hannah3.jpg");
+    background-image: url('/PicTwo.jpg');
+    background-repeat: no-repeat;
     min-height: 400px;
 }
 
