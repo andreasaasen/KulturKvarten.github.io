@@ -1,5 +1,5 @@
 function openMenu(){
-    document.getElementById('side-menu').style.width= '15%';
+    document.getElementById('side-menu').style.width= '200px';
 
 }
 
