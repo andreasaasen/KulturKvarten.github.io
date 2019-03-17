@@ -22,6 +22,7 @@ ul{
 }
 li{
     padding:15px 0px;
+
     
 }
 a{
@@ -48,19 +49,19 @@ a:hover{
 }
 
 .pimg1{
-    background-image: url('/redhouse.jpg');
+    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io/redhouse.jpg');
     background-repeat: no-repeat;
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io//PicOne.jpg');
+    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io/PicOne.jpg');
     background-repeat: no-repeat;
     min-height: 400px;
 }
 
 .pimg3{
-    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io//PicTwo.jpg');
+    background-image: url('https://andreasaasen.github.io/KulturKvarten.github.io/PicTwo.jpg');
     background-repeat: no-repeat;
     min-height: 400px;
 }
@@ -108,8 +109,41 @@ section{
     top: 20%;
 }
 
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 568px) {
     .pimg1 .pimg2 .pimg3{
         background-attachment:scroll;
+    }
+    ul{
+        background-color: #292727;
+        position: fixed;
+        top: 0;
+        display: grid;
+        grid-template-columns:repeat(6, 1fr);
+        z-index: 4;
+        margin: 0;
+        opacity: 0.9;
+        width: 100%;
+        list-style: none;
+    }
+    li{
+        padding:15px 0px;
+        width: max-content;
+    }
+    #one{
+        grid-column: 1 / 2;
+    }
+    #two{
+        grid-column: 2 / 3;
+    }
+    #three{
+        grid-column: 3 / 4;
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+        margin-left: 0;
+        font-weight: 300;
+        font-size: 1.2em;
+        
     }
 }
